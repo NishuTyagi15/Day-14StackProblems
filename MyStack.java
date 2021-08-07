@@ -14,12 +14,15 @@ public class MyStack {
 		myLinkedListTest.add(myNode);
 	}
 
+	public void printStack() {
+		myLinkedListTest.printMyNodes();// TODO Auto-generated method stub	
+	}
+	
 	public INode peak() {
 		return myLinkedListTest.head; // TODO Auto-generated method stub
 	}
 
-	public void printStack() {
-		myLinkedListTest.printMyNodes();// TODO Auto-generated method stub
-		
+	public INode pop() {
+		return myLinkedListTest.pop(); // TODO Auto-generated method stub	
 	}
 }
